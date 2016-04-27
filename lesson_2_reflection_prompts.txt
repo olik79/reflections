@@ -10,6 +10,9 @@ The staging area stands between the working directory and the repository. It ser
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+The staging area contains all changes that will get committed with the next "git commit".
+By running "git diff --staged", I can see all the differences to the last commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
