@@ -16,6 +16,10 @@ By running "git diff --staged", I can see all the differences to the last commit
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches would be helpful if you want to add a slightly altered version to your product 
+or introduce an experimental feature. Branches would help by keeping references to all 
+versions including your "main" version in the master branch.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
