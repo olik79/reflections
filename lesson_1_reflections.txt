@@ -1,0 +1,48 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I could compare both versions of the file line by line and spot the 
+    differences that way.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I can always see what changes have been made and observe how the file 
+    ‚evolved over time.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros:
+    - I have the best idea about the logical structure of the project and know
+      which groups of changes belong to one logical change
+    - I can decide what a granularity I want to achieve with the 
+      number of versions
+
+    Cons:
+    - There is a need of discipline to keep the history well-structured and readable
+    - If you don't care and don't commit, no single commit will be created
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    This depends on the question, if single logical changes can possibly span 
+    across several files or not
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You use git log to find the specific commit that contains the change you
+    are looking for. After that, you look at the commit id of that and the 
+    previous commit and execute 'diff -u [previd] [changeid]' to find all 
+    changes that were related to that logical change.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Breaking something isn't dangerous anymore as I always go back in time checking
+    out previous commits!
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I'm already using it for my work projects, but will also use it for my own stuff to come!
