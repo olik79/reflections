@@ -28,5 +28,8 @@ it possible to see unreachable commits.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result of merging two commits together is a new commit which contains all of the changes
+of both source commits. The new commit has both of the previous commits as a parent.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
