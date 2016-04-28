@@ -33,3 +33,11 @@ of both source commits. The new commit has both of the previous commits as a par
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Pros of automatic merging:
+
+You don't need to go through each and every simple conflict
+
+Cons:
+
+If you go too far with the idea of automatic merging, you might end up with invalid code.
