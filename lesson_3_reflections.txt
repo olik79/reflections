@@ -6,3 +6,14 @@ although a private repository might be better if you don't want to share your co
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Because any changes by others would automatically update my currently checked out branch, if pulls were made automatically
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A branch is a lavel pointing to a certain commit. A clone is a copy of a whole repository 
+that has the source repository added as a remote automatically. A fork is similar to a clone
+but only creates clones from github repositories, placing them in another github account. 
+Changes made to a fork don't apply to the source repository.
+
+You would create a branch to mark a certain commit in your repository, a clone if you want to 
+work on a repository you have remote access to and a fork if you want to create a project based 
+on another github repo.
