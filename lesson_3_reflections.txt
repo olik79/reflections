@@ -17,3 +17,7 @@ Changes made to a fork don't apply to the source repository.
 You would create a branch to mark a certain commit in your repository, a clone if you want to 
 work on a repository you have remote access to and a fork if you want to create a project based 
 on another github repo.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Xou are able to do all of the tdious merging without internet access?
